@@ -1,0 +1,31 @@
+/* Main body styling */
+body {
+    background-image: url('monkey.jpg');
+    background-size: 50px;
+    background-repeat: repeat;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Papyrus-like sheet for the letter content */
+.content {
+    background-image: url('papyrus.jpg');
+    background-size: 750px 1000px;
+    background-repeat: repeat;
+    margin: 50px auto;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #413d3d66; 
+    border-radius: 10px;
+}
+
+/* Centering paragraphs within the content area */
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #33333300;
+}
+
+.link {
+    color: crimson;
+}
